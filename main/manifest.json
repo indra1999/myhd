@@ -1,1 +1,18 @@
+{
+  "id": "hdhub4u-plugin",
+  "name": "HDHub4u",
+  "version": "1.0.0",
+  "description": "HDHub4u streams for movies and TV series (Hindi/Dual Audio focused)",
+  "author": "Custom",
+  "providers": [
+    {
+      "id": "hdhub4u",
+      "name": "HDHub4u",
+      "version": "1.0.0",
+      "description": "Movies & Series from HDHub4u mirrors (480p–4K, Dual Audio)",
+      "types": ["movie", "series"],
+      "url": "providers/hdhub4u.js"
+    }
+  ]
+}
 
